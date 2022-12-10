@@ -6,6 +6,6 @@ const b = +prompt();
 
 if (a % b === 0) {
     console.log('Делится')
-} else if (a > 19 && a < 40) {
-    console.log('молодость')
+} else if (a % b > 0) {
+    console.log('Делится с остатком' (a % b))
 }

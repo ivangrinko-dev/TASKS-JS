@@ -7,7 +7,7 @@ if (a > 0 && a < 18 ) {
     console.log('молодость')
 } else if (a > 41 && a < 100) {
     console.log('зрелость')
-} else if (a < 0 && a > 100) {
+} else if (a < 0 || a > 100) {
     console.log('не корректный ввод')
 };
 
