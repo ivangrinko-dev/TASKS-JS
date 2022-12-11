@@ -4,9 +4,13 @@
 let v1 = +prompt();
 let v2 = +prompt();
 let s = +prompt();
-const t = s / (v1 + v2) ;    
-if (!isNaN(t)) {
-    console.log(t)
-};
-!isNaN(t) ? console.log(t);
-console.log(!isNaN(t) ? t);
+const t = s / (v1 + v2);
+if (isNaN(t)) {
+  console.log(`ошибка`);
+} else {
+  console.log(t);
+}
+
+isNaN(t) ? console.log(`ошибка`) : console.log(t);
+
+console.log(isNaN(t) ? `ошибка` : t);
