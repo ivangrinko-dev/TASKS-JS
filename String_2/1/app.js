@@ -1,4 +1,12 @@
-// Даны переменные a = 10 и b = 3. Найдите остаток от деления a на b
-const a = 10;
-const b = 3;
-console.log(a % b);
+// Ввести строку. Если эта равна “hschool”, вывести true. В противном случае false.
+//Добавить проверки для строк. Удалить лишние пробелы
+
+let a = prompt().trim();
+
+if (isNaN(a)) {
+ if (a === `hschool`) {
+    console.log(true)
+} else {
+    console.log(false);
+}
+}

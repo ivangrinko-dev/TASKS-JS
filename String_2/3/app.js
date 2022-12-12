@@ -1,4 +1,6 @@
-// Даны переменные a = 10 и b = 3. Найдите остаток от деления a на b
-const a = 10;
-const b = 3;
-console.log(a % b);
+//Преобразовать строку ‘Full сStaCK DevELoper’ в массив вида [‘full, ‘stack’, ‘developer’]
+//const a = prompt().trim();
+const a = "Full сStaCK DevELoper"
+
+
+  console.log(a.split(` `));
