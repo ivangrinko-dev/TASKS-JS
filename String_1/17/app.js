@@ -3,6 +3,6 @@
 
 const str = prompt();
 
-if (is NaN(str)) {
+if (isNaN(str)) {
     console.log(str.toUpperCase())
 }
