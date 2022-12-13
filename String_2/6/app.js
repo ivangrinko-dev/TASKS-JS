@@ -4,13 +4,4 @@
 
 let a = prompt().trim();
 
-console.log(a.toUpperCase())
-
-
-
-// if (!isNaN(a)) {
-//     console.log(`ошибка ввода`)
-// } else {
-// }
-
-//console.log(a.toUpperCase())
+console.log(a[0].toUpperCase() + a.slice(1))
