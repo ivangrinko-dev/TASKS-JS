@@ -1,2 +1,6 @@
 // Пользователь вводит дату в формате 'xxxx-xx-xx'. Преобразуйте эту дату в формат
 // 'xx.xx.xxxx'.
+let date = 'xxxx-xx-xx'
+date = date.split(``).reverse()
+
+console.log(date.join(``).replaceAll(`-`,`.`))
