@@ -2,3 +2,11 @@
 // определяет является ли строка хорошей. Текст хороший, если содержит
 // подстроку «хорош» во всевозможных регистрах.
 // я очень хороший текст => true
+
+const a = prompt().trim()
+
+console.log(a.includes(`хорош`) || a.includes(`хОРОШ`) || a.includes(`хоРОШ`)|| a.includes(`хорОШ`)|| a.includes(`хороШ`)|| a.includes(`ХОРОШ`)|| a.includes(`Хорош`)|| a.includes(`ХОрош`)|| a.includes(`ХОРош`)|| a.includes(`ХОРОш`))
+
+
+
+
