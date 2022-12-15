@@ -2,4 +2,4 @@
 // строку 'я+учу+javascript+!'.
 
 const a = ['я', 'учу', 'javascript', '!']
-console
+console.log(a.join(`+`))
