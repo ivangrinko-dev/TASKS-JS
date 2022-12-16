@@ -13,7 +13,3 @@ console.log(result.length);
 
 
   
-//   } else if (str[i] === str[i].toLowerCase()) {
-//     result += 1;
-//   }
-// }
