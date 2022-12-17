@@ -3,9 +3,9 @@
 // подстроку «хорош» во всевозможных регистрах.
 // я очень хороший текст => true
 
-const a = prompt().trim()
+const a = prompt().trim().toLowerCase()
 
-console.log(a.includes(`хорош`) || a.includes(`хОРОШ`) || a.includes(`хоРОШ`)|| a.includes(`хорОШ`)|| a.includes(`хороШ`)|| a.includes(`ХОРОШ`)|| a.includes(`Хорош`)|| a.includes(`ХОрош`)|| a.includes(`ХОРош`)|| a.includes(`ХОРОш`))
+console.log(a.includes(`хорош`))
 
 
 

@@ -1,16 +1,6 @@
-// Два автомобиля едут друг к другу с постоянными скоростями V1 и V2 км/ч.
-// Определите, через какое время автомобили встретятся, если расстояние между
-//ними равно S км. Добавить проверку на ввод только чисел
-let v1 = +prompt();
-let v2 = +prompt();
-let s = +prompt();
-const t = s / (v1 + v2);
-if (isNaN(t)) {
-  console.log(`ошибка`);
-} else {
-  console.log(t);
-}
+// На вход подается строка '/home/user/dir/file.txt'. Необходимо вернуть имя файла
+// (подстрока после последнего символа “/" ) из полного пути к файлу('file.txt')
 
-isNaN(t) ? console.log(`ошибка`) : console.log(t);
-
-console.log(isNaN(t) ? `ошибка` : t);
+const a = `/home/user/dir/file.txt`
+let b = a.indexOf(`file.txt`)
+console.log(a.slice(b)) 

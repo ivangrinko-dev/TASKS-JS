@@ -1,30 +1,9 @@
-// Пользователь вводит число: 1, 2, 3 или 4. Если это значение '1', то вывести в консоль
-// 'зима', '2' – 'весна' и так далее. Добавить проверку на ввод только чисел. Решите
-// задачу через switch-case
+// На вход подается строка из нескольких строк. Необходимо преобразовать слово в
+// хештег. Добавить проверку на ввод текстовых значений
+// hSСhOol СomPAnY-> #hschoolcompany
 
-const a = +prompt();
+const a = `hSChOol ComPAnY`.toLowerCase()
+let b = `#`
 if (isNaN(a)) {
-  console.log(`ошибка`);
-} else {
-switch (a) {
-  case 1:
-    console.log("зима");
-    break;
-
-  case 2:
-    console.log("весна");
-    break;
-
-  case 3:
-    console.log("лето");
-    break;
-
-  case 4:
-    console.log("осень");
-    break;
-
-  default:
-    console.log("ошибка ввода");
-    break;
-}
+  console.log(b + a.replace(` `,``))
 }

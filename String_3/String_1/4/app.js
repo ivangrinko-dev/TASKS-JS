@@ -1,11 +1,13 @@
 // На вход подаются 2 строки. Если исходная 1 строка зкаканчивается на 2 строку
 // вывести true, в противном случае false
 const a = `Happy nwe year`
-const b = ` nwe year`
+const b = `nwe year`
 
-if (a.endsWith(b)) 
+console.log(a.endsWith(b)) // - первый способ
 
-structuredClone.
+if (a.endsWith(b)) {       // - второй способ
+    console.log(true)
+} else {
+    console.log(false)
+}
 
-
-console.log(true)

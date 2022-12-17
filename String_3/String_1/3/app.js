@@ -2,5 +2,5 @@
 // true, если совпадение есть, в противном случае false
 
 const a = `Happy nwe year`
-const b = `This is namber one nwe year`
+const b = `nwe year`
 console.log(a.includes(b))

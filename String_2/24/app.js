@@ -2,13 +2,12 @@
 // количество буквенных символов в нижнем регистре.
 // abcABCD12345 => 3
 
-const str = `abcABCD12345`
+const str = `abcABCD12345`;
 
-let result = ``
+let result = ``;
 for (let i = 0; i < str.length; i++) {
-
-    if (isNaN(str[i]) && str[i] === str[i].) {
-        result += 1
-    }
+  if (isNaN(str[i]) && str[i] === str[i]) {
+    result += 1;
+  }
 }
-console.log(result.length)
+console.log(result.length);
