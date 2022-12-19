@@ -5,7 +5,7 @@
 let x = +prompt();
 
 if (isNaN(x)) {
-    console.log(`ввудите число`);
+    console.log(`ввeдитe число`);
 } else {
     x = +x
     if (x > 0) {
