@@ -4,21 +4,12 @@
 // мем -> true
 // тест -> false
 
-const a = `anna`;
+const a = `anna.trim().toLowerCase();;
 
-// // if (a.startsWith() === a.endsWith()) {
-// //     console.log(true)
-// // } else {
-// //     console.log(false)
-// // }
-// console.log(a.startsWith())
+const str = `anna`.trim().toLowerCase();
 
-//let a = b.length - 1;
-for (let i = 0; i < a.length / 2; i++) {
-  if (a[i] !== a[lastIndex - i]) {
-    return false;
-  }
-  {
-    return true;
-  }
+if (str === str.split('').reverse().join('')) {
+    console.log (true);
+} else {
+    console.log (false); 
 }
