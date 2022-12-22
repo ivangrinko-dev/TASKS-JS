@@ -4,12 +4,12 @@
 // **********
 
 const n = 10;
-//let a = `*`
-// console.log(a.repeat(n));
+let a = `*`;
+console.log(a.repeat(n));
 
-let result = `*`
+let result = ``;
 
-for (let i = 0; i <= n; i++) {
-    result * i
+for (let i = 0; i < n; i++) {
+  result += `*`;
 }
-console.log(result)
+console.log(result);
