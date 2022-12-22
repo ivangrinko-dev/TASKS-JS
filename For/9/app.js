@@ -1,15 +1,15 @@
 // На вход число. Необходимо вывести все числа от 1 до введенного числа. Добавить
 // проверку вводимого значения, если это текст –> сообщение об
 
-const a = `kgikyf`;
+const a = `p[uoy]`;
 
-let result = ``;
 
-for (let i = 1; i <= a; i++) {
-  if (isNaN(a)) {
-    console.log(`Ошибка ввода`);
-  } else {
-    result += i;
+
+if (!isNaN(a)) {
+  for (let i = 1; i <= a; i++) {
+    console.log(i);
   }
+} else {
+  console.log(`Ошибка ввода`);
 }
-console.log(result);
+

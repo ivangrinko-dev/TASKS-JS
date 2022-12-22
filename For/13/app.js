@@ -4,12 +4,15 @@
 // мем -> true
 // тест -> false
 
-const a = `anna.trim().toLowerCase();;
-
-const str = `anna`.trim().toLowerCase();
-
-if (str === str.split('').reverse().join('')) {
-    console.log (true);
+const velue = `annaf`.trim().toLowerCase();
+let reversvelue = ``
+if (velue === velue.split('').reverse().join('')) {
+    console.log(true);
 } else {
-    console.log (false); 
+    console.log(false);
 }
+
+for (let i = velue.length - 1; i >= 0; i--) {
+    reversvelue += velue[i]
+}
+console.log(reversvelue === velue ? true : false)
