@@ -7,3 +7,21 @@
 // ***
 // **
 // *
+
+const n = 7;
+
+let result = ``;
+
+
+for (let i = n; i > 0; i--) {
+    result += `*`.repeat(i) + `\n`;
+}
+
+console.log(result);
+
+
+// for (let i = 0; i <= n; i++) {
+//     result += `*`;
+
+//     console.log(result);
+// }

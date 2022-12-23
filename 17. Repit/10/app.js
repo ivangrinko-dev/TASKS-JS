@@ -1,17 +1,12 @@
 // Задача на слово палиндром. 
+const str1 = `нос`;
+const str2 = `сон`;
 
-const velue = `иван`.trim().toLowerCase();
+const sortstr1 = str1.split(``).sort().join(``);
+const sortstr2 = str2.split(``).sort().join(``);
 
-let reversvelue = ``
-
-if (velue === velue.split('').reverse().join('')) {
-    console.log(`это слово палиндром`);
+if (sortstr1 === sortstr2) {
+    console.log(`Эти слова анаграмма`);
 } else {
-    console.log(`это слово не палиндром`);
+    console.log(`Эти слова не анаграмма`);
 }
-
-
-for (let i = velue.length - 1; i >= 0; i--) {
-    reversvelue += velue[i]
-}
-console.log(reversvelue === velue ? `это слово палиндром` : `это слово не палиндром`)

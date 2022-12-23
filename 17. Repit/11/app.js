@@ -1,18 +1,21 @@
 // Задача на анаграмму. На входе 2 строки, необходимо выявить являются ли
 // введенные значения анаграммами
 
-const a = `апельсин`.trim().toLowerCase();
-const b = `спаниель`.trim().toLowerCase();
+const a = `not`.trim().toLowerCase();
+const b = `ton`.trim().toLowerCase();
+let velue = ``
+let result = ``
 
-//console.log(a === b)
-let velue = b
+
 for (let i = 0; i <= a.length; i++) {
-     velue += a[i]
+     velue += 
 }
-console.log(a === velue ? true : false)
 
+ for (let i = 0; i <= b.length; i++) {
+      velue === b[i]
+}
 
-
+ console.log(result === velue ? true : false)
 
 // if (isAnagram(a, b)) {
 //     console.log(`эти слова анаграммы`)
