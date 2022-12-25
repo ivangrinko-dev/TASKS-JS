@@ -17,11 +17,7 @@ for (let i = 0; i <= a.length; i++) {
 
  console.log(result === velue ? true : false)
 
-// if (isAnagram(a, b)) {
-//     console.log(`эти слова анаграммы`)
-// } else {
-//     console.log(`эти слова не анаграммы`)
-// }
+
 
 
 
