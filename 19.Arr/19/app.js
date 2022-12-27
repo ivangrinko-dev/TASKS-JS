@@ -2,3 +2,10 @@
 // массива. Напишите код заполнения массива методом prompt. Проверить каждый
 // prompt на число (ввод строки, проверка на isNaN)
 
+const a = +prompt();
+
+if (isNaN(a)) {
+  console.log(`Ошибка ввода`);
+} else {
+  console.log(a.split(`,`));
+}
