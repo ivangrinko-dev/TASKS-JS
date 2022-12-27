@@ -5,14 +5,14 @@
 
 const num = [5, 5, 6, 3, 9, 2, 1, 7];
 
-let num1 = 0;
+let str = num.toString().replaceAll(`,`,``);
+let result = ``;
 
-for (let i = 0; i < num.length; i++) {
-    if (num[i][] % 2 !== 0 && num[i][] % 2 !== 0) {
-        num1 += i `:` 
+for (let i = 0; i < str.length; i++) {
+    if ((str[i-1] % 2 !== 0) && (str[i] % 2 !== 0)) {
+        result += str[i] + ':'
     } else {
-        num1 = i
+        result += str[i]
     }
 }
-console.log(num1)
-
+console.log(result)
