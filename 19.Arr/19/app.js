@@ -4,6 +4,13 @@
 
 const x = +prompt();
 
+// let arr = [];
+
+// for (let i = 0; i < x; i++) {
+// arr.push([x[i]])
+// }
+// console.log(arr)
+
 if (!isNaN(x)) {
     const arr = [];
     for (let i = 0; i < x; i++) {
