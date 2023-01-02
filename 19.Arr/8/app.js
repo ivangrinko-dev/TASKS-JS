@@ -9,11 +9,11 @@ for (let i = 0; i < arr.length; i++) {
     newarr.push(arr[i]);
   }
 }
-console.log(newarr)
+console.log(newarr);
 
 // for (let i of arr) {
 //     if (!newarr.includes(i)) {
 //         newarr.push(i);
-//       } 
+//       }
 // }
 // console.log(newarr)

@@ -2,10 +2,7 @@
 // вывести true, в противном случае false.
 //'string', 'StRiNg' -> true
 
-const a = 'string-2'.toLowerCase();
-const b = 'StRiNg'.toLowerCase();
+const a = "String-2".toLowerCase();
+const b = "StRiNg".toLowerCase();
 
-console.log(a === b)
-
-
-
+console.log(a === b);

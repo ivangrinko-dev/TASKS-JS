@@ -4,4 +4,4 @@
 const str = `im glad `;
 const num = 5;
 
-console.log(str.repeat(num))
+console.log(str.repeat(num));

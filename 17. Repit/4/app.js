@@ -3,16 +3,18 @@
 // то остановите выполнение цикла. Если нет, то найдите среднее арифметическое
 // всех чисел
 
-const arr = [1, 2, 3, 4, 5, 6, 7]
+const arr = [1, 2, 3, 4, 5, 6, 7];
 
-const value = 77
+const value = 77;
 
 if (arr.includes(value)) {
-    console.log(`Есть данное число ${value}`)
+  console.log(`Есть данное число ${value}`);
+  
 } else {
-    let result = 0
-    for (let i = 0; i < arr.length; i++) {
-        result += arr[i] 
-    }
-    console.log(`Средне арефметическое: ${result / arr.length}` )
+  let result = 0;
+  for (let i = 0; i < arr.length; i++) {
+    result += arr[i];
+  }
+
+  console.log(`Средне арефметическое: ${result / arr.length}`);
 }

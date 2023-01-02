@@ -4,14 +4,11 @@
 const arr = [10, 20, 30, 50, 235, 3000];
 
 for (let i = 0; i < arr.length; i++) {
-    let num = String(arr[i]);
-    let char = num[0];
-    if (char == 1 || char == 2 || char == 5) {
-      console.log(num);
-    }
+  let num = String(arr[i]);
+  let char = num[0];
+
+  if (char == 1 || char == 2 || char == 5) {
+    console.log(num);
   }
-
-console.log(arr.filter(num => ['1','2','5'].includes(num.toString()[0])))
-
-
-
+}
+console.log(arr.filter((num) => ["1", "2", "5"].includes(num.toString()[0])));

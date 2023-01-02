@@ -4,10 +4,8 @@
 // х-х-х-х-х-х...
 // hsChOoL -> h-s-c-h-o-o-l
 
-
 const a = prompt().trim();
 
 if (isNaN(a)) {
-    console.log(a.toLowerCase().replaceAll(``,`-`));
-}  
-   
+  console.log(a.toLowerCase().replaceAll(``, `-`));
+}

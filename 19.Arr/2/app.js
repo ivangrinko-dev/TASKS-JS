@@ -9,8 +9,9 @@ for (let i = 0; i < a.length; i++) {
 for (let i of a) {
   console.log(i);
 }
+
 let i = 0;
 do {
   console.log(a[i]);
-  i++
+  i++;
 } while (i < a.length);

@@ -5,7 +5,7 @@
 const str = `JavaScript`.trim().toLowerCase();
 
 if (isNaN(str)) {
-    console.log(str.repeat(3));
+  console.log(str.repeat(3));
 } else {
-    console.log(`ошибка ввода`);
+  console.log(`ошибка ввода`);
 }

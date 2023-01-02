@@ -2,8 +2,9 @@
 // хештег. Добавить проверку на ввод текстовых значений
 // hSСhOol СomPAnY-> #hschoolcompany
 
-const a = `hSChOol ComPAnY`.toLowerCase()
-let b = `#`
+const a = `hSChOol ComPAnY`.toLowerCase();
+let b = `#`;
+
 if (isNaN(a)) {
-  console.log(b + a.replace(` `,``))
+  console.log(b + a.replace(` `, ``));
 }

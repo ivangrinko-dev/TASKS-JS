@@ -2,19 +2,20 @@
 // выявлять является ли каждое составляющее числа четным либо нечетным.
 // Добавить проверку на ввод только чисел
 // 1234 -> 1 – неч 2 – чет 3 – неч 4 - чет
+
 let x = prompt(`Введите четырехзначное число`);
 
 if (isNaN(x)) {
-    console.log(`Ошибка, повторите ввщд`);
+  console.log(`Ошибка, повторите ввщд`);
 } else {
-    x = +x
-    const a = Math.round(x / 1000 % 10);
-    const b = Math.round(x / 100 % 10);
-    const c = Math.round(x / 10 % 10);
-    const d = Math.round(x % 10);
+  x = +x;
+  const a = Math.round((x / 1000) % 10);
+  const b = Math.round((x / 100) % 10);
+  const c = Math.round((x / 10) % 10);
+  const d = Math.round(x % 10);
 
-    console.log(d % 2 === 0 ? `${d} чет` : `${d} нечет`);
-    console.log(c % 2 === 0 ? `${c} чет` : `${c} нечет`);
-    console.log(b % 2 === 0 ? `${b} чет` : `${b} нечет`);
-    console.log(a % 2 === 0 ? `${a} чет` : `${a} нечет`);
+  console.log(d % 2 === 0 ? `${d} чет` : `${d} нечет`);
+  console.log(c % 2 === 0 ? `${c} чет` : `${c} нечет`);
+  console.log(b % 2 === 0 ? `${b} чет` : `${b} нечет`);
+  console.log(a % 2 === 0 ? `${a} чет` : `${a} нечет`);
 }

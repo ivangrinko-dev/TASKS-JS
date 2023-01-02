@@ -4,5 +4,5 @@
 const num = 30;
 
 for (let i = 1; i <= num; i++) {
-    i % 3 === 0 ? console.log(i) : null;
+  i % 3 === 0 ? console.log(i) : null;
 }

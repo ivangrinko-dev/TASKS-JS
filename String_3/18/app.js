@@ -3,5 +3,5 @@
 const a = prompt().trim ();
 
 if (isNaN(a)) {
-    console.log(a.repeat(3))
+    console.log(a.repeat(3));
 }

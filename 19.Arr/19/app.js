@@ -6,6 +6,7 @@ const a = +prompt();
 
 if (isNaN(a)) {
   console.log(`Ошибка ввода`);
+  
 } else {
   console.log(a.split(`,`));
 }

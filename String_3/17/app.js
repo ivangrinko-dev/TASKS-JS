@@ -4,5 +4,5 @@
 const str = prompt();
 
 if (isNaN(str)) {
-    console.log(str.toUpperCase())
+    console.log(str.toUpperCase());
 }

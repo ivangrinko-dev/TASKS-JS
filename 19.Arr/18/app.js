@@ -1,6 +1,12 @@
 // Пользователь вводит число, явдяющееся количеством элементов будущего
 //массива. Напишите код заполнения массива методом prompt
 
-const a = +prompt();
+//Напишите код, который разворачивает строку не используя reverse
 
-  console.log(a.split(`,`));
+const str = `Happy nwe year`;
+let result = ``;
+
+for (let i = str.length - 1; i >= 0; i--) {
+  result += str[i];
+}
+console.log(result);

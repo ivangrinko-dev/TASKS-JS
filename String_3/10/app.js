@@ -6,6 +6,7 @@
 
 const a = `31513252`;
 let result = ``;
+
 for (let i = 0; i < a.length; i++) {
   if (a[i] % 2 === 0) {
     result += a[i] + `чет`;

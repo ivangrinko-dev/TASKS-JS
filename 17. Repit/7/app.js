@@ -2,16 +2,16 @@
 
 const str = `vanya`.toLowerCase();
 
+console.log(str[0].toUpperCase() + str.slice(1));
 
-console.log(str[0].toUpperCase() + str.slice(1))
-
-let result = ``
+let result = ``;
 
 for (let i = 0; i < str.length; i++) {
-    if ( i === 0) {
-        result += str[i].toUpperCase()
-    } else {
-        result += str[i]
-    }
+    
+  if (i === 0) {
+    result += str[i].toUpperCase();
+  } else {
+    result += str[i];
+  }
 }
-console.log(result)
+console.log(result);

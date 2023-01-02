@@ -2,8 +2,9 @@
 // проверку на ввод текстовых значений
 // hSСhOol -> #hschool
 
-const a = `hSChOol`
-let b = `#`
+const a = `hSChOol`;
+let b = `#`;
+
 if (isNaN(a)) {
-  console.log(b + a.toLowerCase())
+  console.log(b + a.toLowerCase());
 }

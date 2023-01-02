@@ -13,13 +13,13 @@ console.log(result);
 let i = 0;
 let result1 = 1;
 while (i < arr.length) {
-    result1 *= arr[i]
-    i++
+  result1 *= arr[i];
+  i++;
 }
 console.log(result1);
 
 let result2 = 1;
 for (const i of arr) {
-    result2 *= i;
+  result2 *= i;
 }
-console.log(result2)
+console.log(result2);

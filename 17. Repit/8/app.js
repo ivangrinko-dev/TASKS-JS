@@ -2,9 +2,9 @@
 
 const str = `vanya grinko`.toLowerCase().split(` `);
 
-let result = ``
+let result = ``;
 
 for (let i = 0; i < str.length; i++) {
-    result += str[i][0].toUpperCase() + str[i].slice(1) + ` `
+  result += str[i][0].toUpperCase() + str[i].slice(1) + ` `;
 }
-console.log(result)
+console.log(result);

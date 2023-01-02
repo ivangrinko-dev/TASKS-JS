@@ -7,7 +7,7 @@ let x = +prompt();
 if (isNaN(x)) {
     console.log(`ввeдитe число`);
 } else {
-    x = +x
+    x = +x;
     if (x > 0) {
         const a = Math.round(x / 100 % 10);
         const b = Math.round(x / 10 % 10);
@@ -15,7 +15,7 @@ if (isNaN(x)) {
         console.log(`сумма = ${a + b + c}`);
         console.log(`произведение = ${a * b * c}`);
     } else {
-        console.log(`введите положительное число`)
+        console.log(`введите положительное число`);
     }
 }
 
