@@ -10,18 +10,16 @@ const arr = [];
 for (let i = 0; i < n; i++) {
   let velue = prompt();
   if (isNaN(velue)) {
-    arr.push(prompt());
+    arr.push(velue);
   }
 }
-console.log(arr);
 
-let result = arr.filter(function(elem){
-    console.log(e)
-    if (elem === `a` || elem === `h`) {
-        return true
-    } else {
-        return false
-    }
-})
+let result = arr.filter(function (elem) {
+  if (elem[0] === `a` || elem[0] === `h`) {
+    return true;
+  } else {
+    return false;
+  }
+});
 
 console.log(result);

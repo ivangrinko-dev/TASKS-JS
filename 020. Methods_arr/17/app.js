@@ -3,23 +3,23 @@
 // данных. Необходимо из этих элементов составить 2 массива: со строками и второй
 // массив, соответственно, с числами. forEach
 
-const n = prompt()
-const arr = []
+const n = prompt();
+const arr = [];
 
 for (let i = 0; i < n; i++) {
-    let value = prompt()
-    arr.push(value)
+  let value = prompt();
+  arr.push(value);
 }
 
-const str = []
-const nb = []
+const str = [];
+const nb = [];
 
-arr.forEach(function(elem){
-    if (isNaN(elem)) {
-        str.push(elem)
-    } else {
-        nb.push(elem)
-    }
-})
-console.log(str)
-console.log(nb)
+arr.forEach(function (elem) {
+  if (isNaN(elem)) {
+    str.push(elem);
+  } else {
+    nb.push(elem);
+  }
+});
+console.log(str);
+console.log(nb);

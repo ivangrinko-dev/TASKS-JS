@@ -18,14 +18,10 @@ for (let i = 0; i < n; i++) {
 // });
 
 
-let bool = false;
+
 
 arr.forEach(function(elem){
     if (!isNaN(elem)) {
-        bool = true;
-        return null;
-    } else {
-        bool = false;
-    }
+        console.log(`${true}: ${elem}`);
+}
 })
-console.log(bool);
