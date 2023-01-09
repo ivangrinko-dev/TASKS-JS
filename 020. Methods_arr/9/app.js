@@ -14,10 +14,10 @@ for (let i = 0; i < n; i++) {
 console.log(arr);
 
 let sum = 0;
-arr.forEach(function(elem){
-    sum += +elem
-})
-console.log(sum)
+arr.forEach(function (elem) {
+  sum += +elem;
+});
+console.log(sum);
 
 let result = arr.reduce(function (sum, elem) {
   return sum + +elem;

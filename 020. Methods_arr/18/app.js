@@ -14,8 +14,7 @@ for (let i = 1; i < n; i++) {
   }
 }
 
-
-let result = arr.map(function(elem){
-     return elem ** 2  
-})
- console.log(result);
+let result = arr.map(function (elem) {
+  return elem ** 2;
+});
+console.log(result);

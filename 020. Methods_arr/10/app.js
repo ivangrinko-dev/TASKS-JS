@@ -8,20 +8,20 @@
 const n = prompt(`количество эл. масс.`).trim();
 let arr = [];
 for (let i = 0; i < n; i++) {
-const pr = (prompt(`введите к-во элементов массива`).trim());
-if (isNaN(pr)) {
-   continue
-}else{
-   arr.push(pr)
-}
+  const pr = prompt(`введите к-во элементов массива`).trim();
+  if (isNaN(pr)) {
+    continue;
+  } else {
+    arr.push(pr);
+  }
 }
 console.log(arr);
 
-const result = arr.map(function(elem){
-   if (elem % 2 === 0) {
-      return `чет`
-   } else {
-      return `нечет`
-   }
-})
-console.log(result)
+const result = arr.map(function (elem) {
+  if (elem % 2 === 0) {
+    return `чет`;
+  } else {
+    return `нечет`;
+  }
+});
+console.log(result);
