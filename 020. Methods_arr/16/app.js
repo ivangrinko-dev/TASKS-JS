@@ -9,3 +9,23 @@
 // 4 -> [[1, 2, 3, 4], [5, 6]
 // 5 -> [[1, 2, 3, 4, 5], [6]]
 // 6 -> [[1, 2, 3, 4, 5, 6]]
+
+const n = prompt(`Ввеите количество элементов массива`);
+const arr = [];
+
+for (let i = 0; i < n; i++) {
+  const value = prompt(`Ввеите элемент массива`);
+  if (!isNaN(value)) {
+    arr.push([value]);
+  } else {
+    continue;
+  }
+}
+console.log(arr)
+// let sum = 0
+// const result = arr.reduce(function (sum, elem) {
+//     return sum + +elem ;
+//   },[]);
+  
+  //console.log(result);
+  console.log(result.split([]));
